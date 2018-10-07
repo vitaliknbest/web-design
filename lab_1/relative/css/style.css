@@ -1,0 +1,94 @@
+*{
+	position: relative;
+	margin: 10;
+	padding: 0;
+}
+.body{
+	height: 500px;
+}
+.house{
+	width: 400px;
+	height: 400px;
+}
+
+
+
+.floor_1{
+	height: 135px;
+	background-color: #19E520FF;
+
+	border: solid;
+
+}
+
+.floor_2{
+	height: 135px;
+	background-color: #19E520FF;
+	border: solid;
+
+}
+.balcony{
+	height: 50px;
+	width: 200px;
+	background-color: #AE507EFF;
+	left: 140px;
+	top: 14px;
+	z-index: 2;
+	 
+}
+.roof{
+
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+
+
+}
+.door_2{
+	top: -112px;
+	left:160px;
+	width: 60px;
+	height: 120px;
+	background-color:#DD7C21FF ; 
+	z-index: 1;
+	border:solid;
+}
+.door_1{
+	top: -74px;
+	left:250px;
+	width: 60px;
+	height: 120px;
+	background-color:#DD7C21FF ;
+	z-index: 1;
+	border:solid; 
+}
+.window_1{ 
+	top: 20px;
+	left: 30px;
+	background-color: #C93635FF;
+	width: 80px;
+	height: 80px;
+	border:solid;
+ }
+ 
+.window_2{ 
+	top: 8px;
+	left: 225px;
+	background-color: #C93635FF;
+	width: 80px;
+	height: 64px;
+	z-index: 1;
+	border:solid;
+ }
+ .window_3{ 
+	top: -220px;
+	left: 30px;
+	background-color: #C93635FF;
+	width: 80px;
+	height: 80px;
+	z-index: 1;
+	border:solid;
+	
+
+ }
