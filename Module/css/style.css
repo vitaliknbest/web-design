@@ -1,0 +1,40 @@
+[class *= 'square']{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+}
+.square1{
+	background-color: blue;
+}
+.square2{
+	background-color: black;
+	top: -30px;
+    left: 60px;
+}
+.square3{
+	background-color: blue;
+	top: -60px;
+    left: 120px;
+}
+
+.square4{
+	display: inline-block;
+}
+.square5{
+	display: inline-block;
+}
+.square6{
+	display: inline-block;
+}
+.class1{
+	background-color: black;
+	font-size: 0;
+	width: 400px;
+	height: 200px;
+}
+.square7{
+	background-color: blue;	
+	width: 100px;
+	height: 100px;	
+}
